@@ -1,0 +1,33 @@
+.Sidebar{
+    background-color: rgb(170, 201, 190);
+}
+img{
+    height: 40px;
+    width: 40px;
+    border: none;
+    border-radius: 50%;
+}
+.Chats{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 300px;
+    cursor: pointer;
+    padding: 10px;
+}
+.msg{
+   display: flex;
+   flex-direction: column;
+}
+.msg span{
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#history{
+    font-size: 16px;
+    color: rgb(105, 105, 105);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
